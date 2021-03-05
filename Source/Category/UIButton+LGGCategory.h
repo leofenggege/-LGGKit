@@ -23,8 +23,6 @@ typedef enum : NSUInteger {
 
 - (void)LGG_layoutImageAndTitle:(UIButtonAlignment)alignment padding:(CGFloat)padding;
 
-
-
 @end
 
 NS_ASSUME_NONNULL_END

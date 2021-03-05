@@ -20,6 +20,7 @@
 		B30D7F2625CD29D1006F3396 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B30D7F2325CD29D1006F3396 /* LICENSE */; };
 		B30D7F2725CD29D1006F3396 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B30D7F2425CD29D1006F3396 /* README.md */; };
 		B30D7F3025CD2A58006F3396 /* UIImage+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B30D7F2F25CD2A58006F3396 /* UIImage+LGGCategory.m */; };
+		B31162A725F1CC140040B6D3 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = B31162A525F1CC140040B6D3 /* UIView+Toast.m */; };
 		B353F39A25EDE9B500889D1B /* UIButton+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B353F39925EDE9B500889D1B /* UIButton+LGGCategory.m */; };
 		B353F3A025EDEAB100889D1B /* UITextField+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B353F39F25EDEAB100889D1B /* UITextField+LGGCategory.m */; };
 		B3686AA725D27EC000CA3E7F /* UIView+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3686AA625D27EC000CA3E7F /* UIView+LGGCategory.m */; };
@@ -70,6 +71,8 @@
 		B30D7F2F25CD2A58006F3396 /* UIImage+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGGCategory.m"; sourceTree = "<group>"; };
 		B30D7F3525CD2AE8006F3396 /* LGGkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGkit.h; sourceTree = "<group>"; };
 		B30D7F3925CD2D64006F3396 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B31162A525F1CC140040B6D3 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		B31162A625F1CC140040B6D3 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		B353F39825EDE9B500889D1B /* UIButton+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LGGCategory.h"; sourceTree = "<group>"; };
 		B353F39925EDE9B500889D1B /* UIButton+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LGGCategory.m"; sourceTree = "<group>"; };
 		B353F39E25EDEAB100889D1B /* UITextField+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+LGGCategory.h"; sourceTree = "<group>"; };
@@ -190,6 +193,8 @@
 				B353F39F25EDEAB100889D1B /* UITextField+LGGCategory.m */,
 				B3686AB125EC8D3100CA3E7F /* UIScrollView+EmptyDataSet.h */,
 				B3686AB225EC8D3100CA3E7F /* UIScrollView+EmptyDataSet.m */,
+				B31162A625F1CC140040B6D3 /* UIView+Toast.h */,
+				B31162A525F1CC140040B6D3 /* UIView+Toast.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -352,6 +357,7 @@
 				B353F3A025EDEAB100889D1B /* UITextField+LGGCategory.m in Sources */,
 				B30D7ED225CD22D9006F3396 /* ViewController.m in Sources */,
 				B30D7ECC25CD22D9006F3396 /* AppDelegate.m in Sources */,
+				B31162A725F1CC140040B6D3 /* UIView+Toast.m in Sources */,
 				B3686AA725D27EC000CA3E7F /* UIView+LGGCategory.m in Sources */,
 				B30D7EDD25CD22DE006F3396 /* main.m in Sources */,
 				B3686ABC25EC8F6100CA3E7F /* LGGUIAdapt.m in Sources */,

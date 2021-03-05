@@ -40,7 +40,7 @@
 #define kKeyWindow [UIApplication sharedApplication].keyWindow
 
 #pragma mark ============================== 代码 ====================================
-// 弱引用
+// 强弱引用
 #define WeakSelf __weak typeof(self) weakSelf = self;
 #define StrongSelf  __strong typeof(weakSelf) self = weakSelf;
 
