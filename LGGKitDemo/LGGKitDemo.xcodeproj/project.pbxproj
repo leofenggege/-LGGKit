@@ -20,6 +20,11 @@
 		B30D7F2625CD29D1006F3396 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B30D7F2325CD29D1006F3396 /* LICENSE */; };
 		B30D7F2725CD29D1006F3396 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B30D7F2425CD29D1006F3396 /* README.md */; };
 		B30D7F3025CD2A58006F3396 /* UIImage+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B30D7F2F25CD2A58006F3396 /* UIImage+LGGCategory.m */; };
+		B353F39A25EDE9B500889D1B /* UIButton+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B353F39925EDE9B500889D1B /* UIButton+LGGCategory.m */; };
+		B353F3A025EDEAB100889D1B /* UITextField+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B353F39F25EDEAB100889D1B /* UITextField+LGGCategory.m */; };
+		B3686AA725D27EC000CA3E7F /* UIView+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3686AA625D27EC000CA3E7F /* UIView+LGGCategory.m */; };
+		B3686AB325EC8D3200CA3E7F /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B3686AB225EC8D3100CA3E7F /* UIScrollView+EmptyDataSet.m */; };
+		B3686ABC25EC8F6100CA3E7F /* LGGUIAdapt.m in Sources */ = {isa = PBXBuildFile; fileRef = B3686ABB25EC8F6100CA3E7F /* LGGUIAdapt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,17 @@
 		B30D7F2F25CD2A58006F3396 /* UIImage+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGGCategory.m"; sourceTree = "<group>"; };
 		B30D7F3525CD2AE8006F3396 /* LGGkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGkit.h; sourceTree = "<group>"; };
 		B30D7F3925CD2D64006F3396 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B353F39825EDE9B500889D1B /* UIButton+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LGGCategory.h"; sourceTree = "<group>"; };
+		B353F39925EDE9B500889D1B /* UIButton+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LGGCategory.m"; sourceTree = "<group>"; };
+		B353F39E25EDEAB100889D1B /* UITextField+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+LGGCategory.h"; sourceTree = "<group>"; };
+		B353F39F25EDEAB100889D1B /* UITextField+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LGGCategory.m"; sourceTree = "<group>"; };
+		B3686AA525D27EC000CA3E7F /* UIView+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LGGCategory.h"; sourceTree = "<group>"; };
+		B3686AA625D27EC000CA3E7F /* UIView+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGGCategory.m"; sourceTree = "<group>"; };
+		B3686AB125EC8D3100CA3E7F /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		B3686AB225EC8D3100CA3E7F /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		B3686ABA25EC8F2600CA3E7F /* LGGUIAdapt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGUIAdapt.h; sourceTree = "<group>"; };
+		B3686ABB25EC8F6100CA3E7F /* LGGUIAdapt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGUIAdapt.m; sourceTree = "<group>"; };
+		B3686AC325EDDAAE00CA3E7F /* LGGConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +182,14 @@
 			children = (
 				B30D7F2E25CD2A58006F3396 /* UIImage+LGGCategory.h */,
 				B30D7F2F25CD2A58006F3396 /* UIImage+LGGCategory.m */,
+				B3686AA525D27EC000CA3E7F /* UIView+LGGCategory.h */,
+				B3686AA625D27EC000CA3E7F /* UIView+LGGCategory.m */,
+				B353F39825EDE9B500889D1B /* UIButton+LGGCategory.h */,
+				B353F39925EDE9B500889D1B /* UIButton+LGGCategory.m */,
+				B353F39E25EDEAB100889D1B /* UITextField+LGGCategory.h */,
+				B353F39F25EDEAB100889D1B /* UITextField+LGGCategory.m */,
+				B3686AB125EC8D3100CA3E7F /* UIScrollView+EmptyDataSet.h */,
+				B3686AB225EC8D3100CA3E7F /* UIScrollView+EmptyDataSet.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -184,6 +208,9 @@
 			isa = PBXGroup;
 			children = (
 				B30D7F3525CD2AE8006F3396 /* LGGkit.h */,
+				B3686AC325EDDAAE00CA3E7F /* LGGConfig.h */,
+				B3686ABA25EC8F2600CA3E7F /* LGGUIAdapt.h */,
+				B3686ABB25EC8F6100CA3E7F /* LGGUIAdapt.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -321,9 +348,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B30D7F3025CD2A58006F3396 /* UIImage+LGGCategory.m in Sources */,
+				B353F39A25EDE9B500889D1B /* UIButton+LGGCategory.m in Sources */,
+				B353F3A025EDEAB100889D1B /* UITextField+LGGCategory.m in Sources */,
 				B30D7ED225CD22D9006F3396 /* ViewController.m in Sources */,
 				B30D7ECC25CD22D9006F3396 /* AppDelegate.m in Sources */,
+				B3686AA725D27EC000CA3E7F /* UIView+LGGCategory.m in Sources */,
 				B30D7EDD25CD22DE006F3396 /* main.m in Sources */,
+				B3686ABC25EC8F6100CA3E7F /* LGGUIAdapt.m in Sources */,
+				B3686AB325EC8D3200CA3E7F /* UIScrollView+EmptyDataSet.m in Sources */,
 				B30D7ECF25CD22D9006F3396 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +530,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJDPS6VG9P;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LGGKitDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LGGKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -516,6 +549,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJDPS6VG9P;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LGGKitDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LGGKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
