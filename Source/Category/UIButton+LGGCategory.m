@@ -7,6 +7,8 @@
 
 #import "UIButton+LGGCategory.h"
 
+#import "UIImage+LGGCategory.h"
+
 @implementation UIButton (LGGCategory)
 
 
