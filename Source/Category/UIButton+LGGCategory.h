@@ -6,6 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImage+LGGCategory.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
