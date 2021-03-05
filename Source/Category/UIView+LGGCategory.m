@@ -7,6 +7,10 @@
 
 #import "UIView+LGGCategory.h"
 
+
+#define kToastDuration 0.5
+
+
 @implementation UIView (LGGCategory)
 
 
@@ -146,8 +150,7 @@
     }
 }
 
-- (UIImage *)LGG_openglSnapshotImage
-{
+- (UIImage *)LGG_openglSnapshotImage {
     CGSize size = self.bounds.size;
     UIGraphicsBeginImageContextWithOptions(size, NO, [UIScreen mainScreen].scale);
     CGRect rect = self.frame;
@@ -156,6 +159,17 @@
     UIGraphicsEndImageContext();
 
     return snapshotImage;
+}
+
+
+// 底部展示提示
+- (void)LGG_showToastInBottom:(NSString *)toastStr {
+    [self makeToast:toastStr duration:kToastDuration position:CSToastPositionBottom];
+}
+
+// 中心展示提示
+- (void)LGG_showToasrInCenter:(NSString *)toastStr {
+    [self makeToast:toastStr duration:kToastDuration position:CSToastPositionCenter];
 }
 
 @end

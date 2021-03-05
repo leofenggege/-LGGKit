@@ -29,7 +29,7 @@
     BOOL a = ObjectIsNilOrNull(arr);
     
     
-    NSLog(@"%.2f",a);
+    [self.view makeToast:@"aakakak" duration:0.5 position:CSToastPositionBottom];
 }
 
 @end
