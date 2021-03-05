@@ -6,7 +6,7 @@
 //
 
 #import "UIView+LGGCategory.h"
-
+#import "UIView+Toast.h"
 
 #define kToastDuration 0.5
 
