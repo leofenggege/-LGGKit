@@ -9,7 +9,7 @@
 
 #import <objc/runtime.h>
 
-static char const * const  adjust = @"adjust";
+static NSString const * const  adjust = @"adjust";
 
 @implementation UITextField (LGGCategory)
 
