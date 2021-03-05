@@ -37,11 +37,11 @@ NS_ASSUME_NONNULL_BEGIN
 // 视图生成图片
 - (UIImage *)LGG_openglSnapshotImage;
 
-// 底部展示提示
-- (void)LGG_showToastInBottom:(NSString *)toastStr;
-
-// 中心展示提示
-- (void)LGG_showToasrInCenter:(NSString *)toastStr;
+//// 底部展示提示
+//- (void)LGG_showToastInBottom:(NSString *)toastStr;
+//
+//// 中心展示提示
+//- (void)LGG_showToasrInCenter:(NSString *)toastStr;
 
 @end
 
