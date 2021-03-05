@@ -10,12 +10,12 @@
 @implementation UIButton (LGGCategory)
 
 
-- (void)LGG_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state {
-    
-    UIImage *img = [UIImage LGG_imageWithColor:backgroundColor];
-    
-    [self setBackgroundImage:img forState:state];
-}
+//- (void)LGG_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state {
+//    
+//    UIImage *img = [UIImage LGG_imageWithColor:backgroundColor];
+//    
+//    [self setBackgroundImage:img forState:state];
+//}
 
 - (void)LGG_layoutImageAndTitle:(UIButtonAlignment)alignment padding:(CGFloat)padding {
     if (self.imageView != nil && self.titleLabel != nil) {

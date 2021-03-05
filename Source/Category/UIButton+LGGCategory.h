@@ -21,7 +21,7 @@ typedef enum : NSUInteger {
 
 @interface UIButton (LGGCategory)
 
-- (void)LGG_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state;
+//- (void)LGG_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state;
 
 - (void)LGG_layoutImageAndTitle:(UIButtonAlignment)alignment padding:(CGFloat)padding;
 
