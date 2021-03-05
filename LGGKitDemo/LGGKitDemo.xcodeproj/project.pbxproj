@@ -16,11 +16,11 @@
 		B30D7EDD25CD22DE006F3396 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B30D7EDC25CD22DE006F3396 /* main.m */; };
 		B30D7EE725CD22DE006F3396 /* LGGKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B30D7EE625CD22DE006F3396 /* LGGKitDemoTests.m */; };
 		B30D7EF225CD22DF006F3396 /* LGGKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B30D7EF125CD22DF006F3396 /* LGGKitDemoUITests.m */; };
-		B30D7F2525CD29D1006F3396 /* LGGKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B30D7F2225CD29D1006F3396 /* LGGKit.podspec */; };
-		B30D7F2625CD29D1006F3396 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B30D7F2325CD29D1006F3396 /* LICENSE */; };
-		B30D7F2725CD29D1006F3396 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B30D7F2425CD29D1006F3396 /* README.md */; };
 		B30D7F3025CD2A58006F3396 /* UIImage+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B30D7F2F25CD2A58006F3396 /* UIImage+LGGCategory.m */; };
 		B31162A725F1CC140040B6D3 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = B31162A525F1CC140040B6D3 /* UIView+Toast.m */; };
+		B31162B825F1D8F00040B6D3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B31162B525F1D8F00040B6D3 /* README.md */; };
+		B31162B925F1D8F00040B6D3 /* LGGKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B31162B625F1D8F00040B6D3 /* LGGKit.podspec */; };
+		B31162BA25F1D8F00040B6D3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B31162B725F1D8F00040B6D3 /* LICENSE */; };
 		B353F39A25EDE9B500889D1B /* UIButton+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B353F39925EDE9B500889D1B /* UIButton+LGGCategory.m */; };
 		B353F3A025EDEAB100889D1B /* UITextField+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B353F39F25EDEAB100889D1B /* UITextField+LGGCategory.m */; };
 		B3686AA725D27EC000CA3E7F /* UIView+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3686AA625D27EC000CA3E7F /* UIView+LGGCategory.m */; };
@@ -64,15 +64,15 @@
 		B30D7EED25CD22DF006F3396 /* LGGKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGGKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30D7EF125CD22DF006F3396 /* LGGKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGKitDemoUITests.m; sourceTree = "<group>"; };
 		B30D7EF325CD22DF006F3396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B30D7F2225CD29D1006F3396 /* LGGKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LGGKit.podspec; path = ../../../LGGKit.podspec; sourceTree = "<group>"; };
-		B30D7F2325CD29D1006F3396 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
-		B30D7F2425CD29D1006F3396 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
 		B30D7F2E25CD2A58006F3396 /* UIImage+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGGCategory.h"; sourceTree = "<group>"; };
 		B30D7F2F25CD2A58006F3396 /* UIImage+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGGCategory.m"; sourceTree = "<group>"; };
 		B30D7F3525CD2AE8006F3396 /* LGGkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGkit.h; sourceTree = "<group>"; };
 		B30D7F3925CD2D64006F3396 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B31162A525F1CC140040B6D3 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		B31162A625F1CC140040B6D3 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		B31162B525F1D8F00040B6D3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		B31162B625F1D8F00040B6D3 /* LGGKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LGGKit.podspec; path = ../../../LGGKit.podspec; sourceTree = "<group>"; };
+		B31162B725F1D8F00040B6D3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
 		B353F39825EDE9B500889D1B /* UIButton+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LGGCategory.h"; sourceTree = "<group>"; };
 		B353F39925EDE9B500889D1B /* UIButton+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LGGCategory.m"; sourceTree = "<group>"; };
 		B353F39E25EDEAB100889D1B /* UITextField+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+LGGCategory.h"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		B30D7EC925CD22D9006F3396 /* LGGKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B30D7F2125CD28B7006F3396 /* Podspec Metadata */,
+				B31162B425F1D4950040B6D3 /* Resource */,
 				B30D7F0225CD230A006F3396 /* Source */,
 				B30D7ECA25CD22D9006F3396 /* AppDelegate.h */,
 				B30D7ECB25CD22D9006F3396 /* AppDelegate.m */,
@@ -199,16 +199,6 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		B30D7F2125CD28B7006F3396 /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				B30D7F2225CD29D1006F3396 /* LGGKit.podspec */,
-				B30D7F2325CD29D1006F3396 /* LICENSE */,
-				B30D7F2425CD29D1006F3396 /* README.md */,
-			);
-			path = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
 		B30D7F3425CD2AC3006F3396 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +208,16 @@
 				B3686ABB25EC8F6100CA3E7F /* LGGUIAdapt.m */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		B31162B425F1D4950040B6D3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B31162B625F1D8F00040B6D3 /* LGGKit.podspec */,
+				B31162B725F1D8F00040B6D3 /* LICENSE */,
+				B31162B525F1D8F00040B6D3 /* README.md */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,12 +322,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30D7F2725CD29D1006F3396 /* README.md in Resources */,
-				B30D7F2525CD29D1006F3396 /* LGGKit.podspec in Resources */,
+				B31162BA25F1D8F00040B6D3 /* LICENSE in Resources */,
 				B30D7EDA25CD22DE006F3396 /* LaunchScreen.storyboard in Resources */,
+				B31162B925F1D8F00040B6D3 /* LGGKit.podspec in Resources */,
 				B30D7ED725CD22DE006F3396 /* Assets.xcassets in Resources */,
+				B31162B825F1D8F00040B6D3 /* README.md in Resources */,
 				B30D7ED525CD22D9006F3396 /* Main.storyboard in Resources */,
-				B30D7F2625CD29D1006F3396 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +542,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunxian.LGGKit.LGGKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -561,6 +562,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunxian.LGGKit.LGGKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
