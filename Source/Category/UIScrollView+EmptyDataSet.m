@@ -988,6 +988,7 @@ Class dzn_baseClassToSwizzleForTarget(id target)
         // Assign the button's horizontal constraints
         if ([self canShowButton]) {
             
+            
             [subviewStrings addObject:@"button"];
             views[[subviewStrings lastObject]] = _button;
             
