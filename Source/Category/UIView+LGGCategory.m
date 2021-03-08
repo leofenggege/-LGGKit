@@ -164,12 +164,12 @@
 
 // 底部展示提示
 - (void)LGG_showToastInBottom:(NSString *)toastStr {
-//    [self makeToast:toastStr duration:kToastDuration position:CSToastPositionBottom];
+    [self makeToast:toastStr duration:kToastDuration position:CSToastPositionBottom];
 }
 
 // 中心展示提示
 - (void)LGG_showToasrInCenter:(NSString *)toastStr {
-//    [self makeToast:toastStr duration:kToastDuration position:CSToastPositionCenter];
+    [self makeToast:toastStr duration:kToastDuration position:CSToastPositionCenter];
 }
 
 @end
