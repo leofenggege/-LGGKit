@@ -161,6 +161,18 @@
     return snapshotImage;
 }
 
+- (void)LGG_RoundCorners:(UIRectCorner)corners radius:(CGFloat)radius {
+    CAShapeLayer *maskLayer = [CAShapeLayer layer];
+    maskLayer.frame = self.bounds;
+    maskLayer.path = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corners cornerRadii:CGSizeMake(radius, radius)].CGPath;
+    self.layer.mask = maskLayer;
+}
+
+// 获取NIB文件view
++ (instancetype)getNibView:(NSString *)nibName {
+    UINib *nib = [UINib nibWithNibName:nibName bundle:nil];
+    return [nib instantiateWithOwner:nil options:nil].firstObject;
+}
 
 // 底部展示提示
 - (void)LGG_showToastInBottom:(NSString *)toastStr {

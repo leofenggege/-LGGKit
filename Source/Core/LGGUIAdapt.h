@@ -70,10 +70,4 @@ extern BOOL isIphone8P(void);
 extern BOOL isShapedScreen(void);
 
 
-#pragma mark ============================== 颜色 ====================================
-// RGB颜色（16进制）
-extern UIColor * UIColorFromRGB(NSInteger);
-
-
-
 #endif /* LGGUIAdapt_h */

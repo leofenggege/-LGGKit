@@ -10,6 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#define kShadowViewTag 2132
+#define kValidDirections [NSArray arrayWithObjects: @"top", @"bottom", @"left", @"right",nil]
+
 @interface UIView (LGGCategory)
 
 @property(nonatomic) CGFloat left;
@@ -37,6 +40,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 视图生成图片
 - (UIImage *)LGG_openglSnapshotImage;
+
+// 画圆角
+- (void)LGG_RoundCorners:(UIRectCorner)corners radius:(CGFloat)radius;
+
+// 获取NIB文件view
++ (instancetype)getNibView:(NSString *)nibName;
 
 // 底部展示提示
 - (void)LGG_showToastInBottom:(NSString *)toastStr;

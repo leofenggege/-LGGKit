@@ -23,9 +23,12 @@
 		B31162BA25F1D8F00040B6D3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B31162B725F1D8F00040B6D3 /* LICENSE */; };
 		B353F39A25EDE9B500889D1B /* UIButton+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B353F39925EDE9B500889D1B /* UIButton+LGGCategory.m */; };
 		B353F3A025EDEAB100889D1B /* UITextField+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B353F39F25EDEAB100889D1B /* UITextField+LGGCategory.m */; };
+		B35D2B3D260AEBA800C941CA /* UIColor+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B35D2B3C260AEBA800C941CA /* UIColor+LGGCategory.m */; };
 		B3686AA725D27EC000CA3E7F /* UIView+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3686AA625D27EC000CA3E7F /* UIView+LGGCategory.m */; };
 		B3686AB325EC8D3200CA3E7F /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B3686AB225EC8D3100CA3E7F /* UIScrollView+EmptyDataSet.m */; };
 		B3686ABC25EC8F6100CA3E7F /* LGGUIAdapt.m in Sources */ = {isa = PBXBuildFile; fileRef = B3686ABB25EC8F6100CA3E7F /* LGGUIAdapt.m */; };
+		B3698149260B19CC00977EF3 /* UIView+LGGGestureEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = B3698148260B19CB00977EF3 /* UIView+LGGGestureEvents.m */; };
+		B369814F260B1DC500977EF3 /* NSString+LGGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B369814E260B1DC500977EF3 /* NSString+LGGCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,8 @@
 		B353F39925EDE9B500889D1B /* UIButton+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LGGCategory.m"; sourceTree = "<group>"; };
 		B353F39E25EDEAB100889D1B /* UITextField+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+LGGCategory.h"; sourceTree = "<group>"; };
 		B353F39F25EDEAB100889D1B /* UITextField+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LGGCategory.m"; sourceTree = "<group>"; };
+		B35D2B3B260AEBA800C941CA /* UIColor+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+LGGCategory.h"; sourceTree = "<group>"; };
+		B35D2B3C260AEBA800C941CA /* UIColor+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LGGCategory.m"; sourceTree = "<group>"; };
 		B3686AA525D27EC000CA3E7F /* UIView+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LGGCategory.h"; sourceTree = "<group>"; };
 		B3686AA625D27EC000CA3E7F /* UIView+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGGCategory.m"; sourceTree = "<group>"; };
 		B3686AB125EC8D3100CA3E7F /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
@@ -84,6 +89,10 @@
 		B3686ABA25EC8F2600CA3E7F /* LGGUIAdapt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGUIAdapt.h; sourceTree = "<group>"; };
 		B3686ABB25EC8F6100CA3E7F /* LGGUIAdapt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGUIAdapt.m; sourceTree = "<group>"; };
 		B3686AC325EDDAAE00CA3E7F /* LGGConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGConfig.h; sourceTree = "<group>"; };
+		B3698147260B19CB00977EF3 /* UIView+LGGGestureEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LGGGestureEvents.h"; sourceTree = "<group>"; };
+		B3698148260B19CB00977EF3 /* UIView+LGGGestureEvents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGGGestureEvents.m"; sourceTree = "<group>"; };
+		B369814D260B1DC500977EF3 /* NSString+LGGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LGGCategory.h"; sourceTree = "<group>"; };
+		B369814E260B1DC500977EF3 /* NSString+LGGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LGGCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +196,8 @@
 				B30D7F2F25CD2A58006F3396 /* UIImage+LGGCategory.m */,
 				B3686AA525D27EC000CA3E7F /* UIView+LGGCategory.h */,
 				B3686AA625D27EC000CA3E7F /* UIView+LGGCategory.m */,
+				B35D2B3B260AEBA800C941CA /* UIColor+LGGCategory.h */,
+				B35D2B3C260AEBA800C941CA /* UIColor+LGGCategory.m */,
 				B353F39825EDE9B500889D1B /* UIButton+LGGCategory.h */,
 				B353F39925EDE9B500889D1B /* UIButton+LGGCategory.m */,
 				B353F39E25EDEAB100889D1B /* UITextField+LGGCategory.h */,
@@ -195,6 +206,10 @@
 				B3686AB225EC8D3100CA3E7F /* UIScrollView+EmptyDataSet.m */,
 				B31162A625F1CC140040B6D3 /* UIView+Toast.h */,
 				B31162A525F1CC140040B6D3 /* UIView+Toast.m */,
+				B3698147260B19CB00977EF3 /* UIView+LGGGestureEvents.h */,
+				B3698148260B19CB00977EF3 /* UIView+LGGGestureEvents.m */,
+				B369814D260B1DC500977EF3 /* NSString+LGGCategory.h */,
+				B369814E260B1DC500977EF3 /* NSString+LGGCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -356,12 +371,15 @@
 				B353F39A25EDE9B500889D1B /* UIButton+LGGCategory.m in Sources */,
 				B353F3A025EDEAB100889D1B /* UITextField+LGGCategory.m in Sources */,
 				B30D7ED225CD22D9006F3396 /* ViewController.m in Sources */,
+				B35D2B3D260AEBA800C941CA /* UIColor+LGGCategory.m in Sources */,
 				B30D7ECC25CD22D9006F3396 /* AppDelegate.m in Sources */,
+				B369814F260B1DC500977EF3 /* NSString+LGGCategory.m in Sources */,
 				B31162A725F1CC140040B6D3 /* UIView+Toast.m in Sources */,
 				B3686AA725D27EC000CA3E7F /* UIView+LGGCategory.m in Sources */,
 				B30D7EDD25CD22DE006F3396 /* main.m in Sources */,
 				B3686ABC25EC8F6100CA3E7F /* LGGUIAdapt.m in Sources */,
 				B3686AB325EC8D3200CA3E7F /* UIScrollView+EmptyDataSet.m in Sources */,
+				B3698149260B19CC00977EF3 /* UIView+LGGGestureEvents.m in Sources */,
 				B30D7ECF25CD22D9006F3396 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,6 +556,7 @@
 				DEVELOPMENT_TEAM = MJDPS6VG9P;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LGGKitDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LGGKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -558,6 +577,7 @@
 				DEVELOPMENT_TEAM = MJDPS6VG9P;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LGGKitDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LGGKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -16,9 +16,7 @@
 #endif
 
 
-#pragma mark ============================== 字体颜色 ====================================
-//RGBA的颜色（RGBA模式）
-#define RGBA(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+#pragma mark ============================== 字体 ====================================
 
 // 系统字体
 #define font(font) [UIFont systemFontOfSize:font]
@@ -44,8 +42,6 @@
 #define WeakSelf __weak typeof(self) weakSelf = self;
 #define StrongSelf  __strong typeof(weakSelf) self = weakSelf;
 
-// 判断字符串是否为空或者为空字符串
-#define strIsNullOrEmpty(str) (str==nil||[str isEqualToString:@""])
 /**判断对象是否为空*/
 #define ObjectIsNilOrNull(_ref)   (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]))
 

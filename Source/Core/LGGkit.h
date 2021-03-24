@@ -20,7 +20,12 @@
 #import "UIButton+LGGCategory.h"
 #import "UITextField+LGGCategory.h"
 
+#import "UIColor+LGGCategory.h"
+
+#import "UIView+LGGGestureEvents.h"
+
+
 #endif /* LGGkit_h */
 
 
-
+    
