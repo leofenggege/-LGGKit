@@ -20,20 +20,11 @@ CGFloat kScreenHeight(void){
 CGFloat const kNavigationbarHeight = 44.0;
 
 CGFloat kSafeAreaStatusHeight(void){
-//    float statusBarHeight = 0;
-//    if (@available(iOS 13.0, *)) {
-//        UIStatusBarManager *statusBarManager = [UIApplication sharedApplication].windows.firstObject.windowScene.statusBarManager;
-//        statusBarHeight = statusBarManager.statusBarFrame.size.height;
-//    }else {
-//        statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
-//    }
-//    return statusBarHeight;
-    
     return ((isIphoneX() || isIphoneXR() || isIphone12Mini() || isIphone12() || isIphone12ProMAX()) ? 44.0: 20.0);
 }
 
 /// 状态栏+导航栏
-CGFloat kSafeAreaTopHeight(void){
+CGFloat kNavAndStatusHeight(void){
     return kNavigationbarHeight + kSafeAreaStatusHeight();
 }
 
@@ -162,3 +153,4 @@ BOOL isShapedScreen()
 UIColor *UIColorFromRGB(NSInteger rgbValue) {
     return [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0];
 }
+

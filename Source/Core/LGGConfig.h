@@ -35,7 +35,7 @@
 #define kDocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES) objectAtIndex:0]
 
 // keywindow
-#define kKeyWindow [UIApplication sharedApplication].keyWindow
+#define kKeywindow ([UIApplication sharedApplication].keyWindow ?: [UIApplication sharedApplication].windows.firstObject)
 
 #pragma mark ============================== 代码 ====================================
 // 强弱引用

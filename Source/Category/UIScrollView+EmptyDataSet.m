@@ -1060,7 +1060,6 @@ Class dzn_baseClassToSwizzleForTarget(id target)
 }
 
 @end
-
 #pragma mark - DZNWeakObjectContainer
 
 @implementation DZNWeakObjectContainer

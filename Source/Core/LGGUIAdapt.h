@@ -30,7 +30,7 @@ extern CGFloat const kNavigationbarHeight;
 /// 状态栏高度,刘海屏 44 其它 20
 extern CGFloat kSafeAreaStatusHeight(void);
 /// 状态栏+导航栏
-extern CGFloat kSafeAreaTopHeight(void);
+extern CGFloat kNavAndStatusHeight(void);
 /// 底部tabBar高度,刘海屏 83 其他 49
 extern CGFloat kSafeAreaTabBarBottomHeight(void);
 /// iPhoneX 和 非 X高度 底部安全区域

@@ -18,8 +18,6 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = LGGHexColor(@"da5144");
-
-    
     
     UIView *testV = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     
@@ -45,7 +43,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
-    NSArray *arr;
+//    NSArray *arr;
     
 //    BOOL a = ObjectIsNilOrNull(arr);
     

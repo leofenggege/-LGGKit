@@ -10,9 +10,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-#define kShadowViewTag 2132
-#define kValidDirections [NSArray arrayWithObjects: @"top", @"bottom", @"left", @"right",nil]
-
 @interface UIView (LGGCategory)
 
 @property(nonatomic) CGFloat left;
